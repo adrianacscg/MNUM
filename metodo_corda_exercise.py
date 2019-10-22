@@ -8,7 +8,7 @@ Created on Sun Oct  6 16:42:29 2019
 def equacao(x):
     return 2*x**2 - 5*x -2;
 
-def bissection(a, b, numIt):
+def corda(a, b, numIt):
     r = (a * equacao(b) - b * equacao(a)) / (equacao(b) - equacao(a));
     
     for i in range(0, numIt):
@@ -29,4 +29,4 @@ def bissection(a, b, numIt):
         
     return r;
 
-print(bissection(0, 1,17))
+print(corda(0, 1,17))

@@ -14,7 +14,7 @@ print("cálculo da bisseção pelo número de iteracões: ")
 
 def bissection(a, b, numIt):        #cálculo da bisseção pelo número de iteracões
     m = 0;
-    counter = 0;
+    
     
     for i in range(0, numIt):
         
@@ -34,7 +34,7 @@ def bissection(a, b, numIt):        #cálculo da bisseção pelo número de iter
         else:
             b = m;
             
-        counter+= 1;
+        
     
         print("m: ","%.5f" % m);
         
